@@ -1,0 +1,272 @@
+body{
+
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-color: rgb(224,255,254);
+    overflow-x: hidden;
+    background: linear-gradient(0deg, rgba(224,255,254,1) 0%, rgba(140,193,255,1) 100%);
+}
+
+p {
+    font-size: 1.5em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding-right: 25px;
+}
+
+header{
+    width: 100%;
+    background-color: whitesmoke;
+    text-align: center;
+    color: rgb(140,193,255,1);
+    font-size: 5em;
+    
+}
+
+nav{
+    background-color: whitesmoke;
+    font-size: 3em;
+    text-align: center;
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    height: 10%;
+    margin-top: 2%;
+}
+
+nav a{
+    color: rgb(140,193,255,1);
+    font-style: italic;
+}
+
+nav a:hover{
+    color: rgb(0, 153, 255);
+}
+
+nav a:active{
+    color: yellow;
+}
+
+.text a {
+    font-size: 1.7em;
+    font-family: sans-serif;
+    line-height: 150%;
+    color: rgb(39, 118, 209);
+}
+
+.text a:hover{
+    color: rgb(0, 153, 255);
+}
+
+.text a:active{
+    color: pink;
+}
+
+.text a:visited{
+    color: rgb(97, 174, 204);
+}
+
+.cloud{
+    background-color: whitesmoke;
+    border-radius: 5%;
+    margin: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+section h1{
+    text-align: center;
+    font-size: 3em;
+}
+
+section h2{
+    font-size: 2.5em;
+}
+section h3{
+    font-size: 2em;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    border-radius: 0 0 5% 0;
+    width: 20%;
+    height: 20%;
+}
+
+footer{
+    background-color: rgb(0, 153, 255);
+    text-align: center;
+    color: black;
+    bottom: 0;
+    width: 99%;
+
+}
+
+.Quote{
+    background-color: rgba(224,255,254,1);
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 1%;
+    transform: skew(-10deg);
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.Quote p{
+    font-family: cursive;
+    font-size: 2em;
+}
+
+.Quote h2{
+    font-size: 3em;
+}
+
+.scroll_box{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.boxes{
+    padding: 1%;
+    margin: 1%;
+    width: 50%;
+}
+
+.boxes h2{
+    font-size: 2em;
+}
+.boxes p{
+    font-size: 1.5em;
+}
+
+#newsitetb{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: whitesmoke;
+    color: rgb(39, 118, 209);
+    width: 95%;
+    text-align: left;
+    margin-top: 7%;
+    padding: 1%;
+    margin-bottom: 7%;
+    border-radius: 10%;
+}
+
+#newsitetb th{
+    font-size: 2em;
+}
+
+#newsitetb td{
+    font-size: 1.5em;
+}
+
+#can{
+    margin-top: 1%;
+    margin-right: 30%;
+    margin-left: 30%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+#clock{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    flex-direction: row;
+    background-color: aliceblue;
+    margin: 1%;
+    border: solid black;
+}
+
+#clock p{
+    font-size: 2em;
+    font-family: monospace;
+}
+
+button{
+    font-size: 3em;
+    color: whitesmoke;
+    background-color: rgb(97, 174, 204);
+    box-shadow: 0px 0px 20px darkslategray;
+}
+
+button:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.center
+    {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+        margin-top: 1%;
+    }
+
+    .mono{
+        font-family: monospace;
+        font-size: 2em;
+    }
+
+    .big{
+        font-size: 3em;
+    }
+
+.header {
+    font-size: 1.7em;
+    font-family: sans-serif;
+}
+
+.header a{
+    color: black;
+}
+
+.header a:hover{
+    font-size: 2rem;
+    transition: ease-in-out 0.5s;
+}
+
+input{
+    font-size: 2em;
+    display: flex;
+    flex: row;
+    margin: 1%;
+}
+
+#post{
+    font-size: 1em;
+    height: 10em;
+    width: 24.5em;
+}
+
+
+
+.post{
+    border: solid black;
+    padding: 0.5%;
+}
+
+#publisher{
+    font-size: 2rem;
+    background-color: black;
+    color: white;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+#publisher:hover{
+    color: skyblue;
+}
