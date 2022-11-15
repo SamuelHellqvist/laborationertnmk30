@@ -1,0 +1,59 @@
+nav{
+    display: flex;
+    flex-direction: column; 
+  }
+  
+  nav a{
+    color: black;
+    background-color: grey;
+    opacity: 50%;
+    width: 275px;
+    border-radius: 0px 10px 10px 0px;
+    margin: 1px;
+    padding: 5px;
+    font-size: 1rem;
+
+  }
+  nav a:hover{
+    opacity: 100%;
+    color: #F2591D;
+    background-color: lightgrey;
+    font-size: 1.5rem;
+    transition: ease 0.6s;
+    text-decoration: underline;
+    width: 300px;
+  }
+  
+
+body{
+    background-color: #F2F2F2;
+}
+
+h2{
+    color: #F2591D;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#btn{
+    background-color: #F2591D;
+    color: #F2F2F2;
+    font-size: 2rem;
+    border-radius: 5px;
+}
+#bar{
+    font-size: 2rem;
+    background-color: #F2F2F2;
+    border-radius: 5px;
+}
+
+ul a{
+    color: black;
+}
+ul a:hover{
+    color: #F2591D;
+}

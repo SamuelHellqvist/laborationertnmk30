@@ -1,0 +1,4 @@
+<div class='post'> <h1>samuel</h1>
+<h2>lektion</h2>
+<p>dagens lektion handlade om php</p>
+<p>2022-11-10 17:17:50</p></div>
